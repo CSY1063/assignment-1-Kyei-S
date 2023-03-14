@@ -12,6 +12,7 @@ body {
 
 nav {
     background-color: #635C51;
+
 }
 
 nav ul {
@@ -36,4 +37,14 @@ nav ul ul {
 
 nav>ul>li:hover ul {
     display: block;
+}
+
+aside img{
+    width: 25%;
+    border-radius:15%;
+}
+
+aside * {
+    padding: 15px 0;
+
 }

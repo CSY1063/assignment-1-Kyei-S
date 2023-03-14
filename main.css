@@ -11,9 +11,26 @@ header {
 }
 
 nav {
-    background-color: #635C51;
+    background-color: #635C51; 
+    grid-area: nav;
 }
 
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+    color: black;
+}
 main {
     background-color: #202030;
     color: white;
