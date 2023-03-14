@@ -30,7 +30,7 @@ body {
 
 nav {
     display: block;
-    background-color: yellow;
+    background-color:  #635C51;
     position: fixed;
     top: 0;
     left: 50%;
@@ -38,6 +38,7 @@ nav {
     height: 100vh;
     transform: translate(120%, 0);
     transition: transform 0.5 ease-in;
+    list-style: none;
 }
 
 #clicked:target nav {
