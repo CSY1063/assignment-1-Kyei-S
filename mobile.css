@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 105%;
     grid-template-rows: auto;
     grid-template-areas:
         "header"
@@ -30,14 +30,14 @@ body {
 
 nav {
     display: block;
-    background-color:  #635C51;
+    background-color: silver;
     position: fixed;
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
     transform: translate(120%, 0);
-    transition: transform 0.5 ease-in;
+    transition: transform 0.5s ease-in;
     list-style: none;
 }
 
@@ -59,4 +59,10 @@ nav {
 
 #clicked:target .off {
     display: block;
+}
+
+img {
+    width: 18%;
+    border-radius: 42%;
+    padding: 172px 19%;
 }

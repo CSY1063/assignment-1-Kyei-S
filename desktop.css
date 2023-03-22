@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 75% 5%;
     grid-template-rows: auto;
     grid-template-areas:
         "header header header"
@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #635C51;
+    background-color: #4a4a4896;
 
 }
 
@@ -29,7 +29,7 @@ nav>ul>li {
 nav ul ul {
     position: absolute;
     display: block;
-    background-color: green;
+    background-color: greencoolers;
     padding: 0;
     width: 100%;
     display: none;
@@ -39,12 +39,8 @@ nav>ul>li:hover ul {
     display: block;
 }
 
-aside img{
-    width: 25%;
-    border-radius:15%;
-}
-
-aside * {
-    padding: 15px 0;
-
+img {
+    width: 10%;
+    border-radius: 42%;
+    padding: 196px 19%;
 }
