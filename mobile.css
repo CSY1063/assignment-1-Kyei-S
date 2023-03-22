@@ -31,6 +31,7 @@ body {
 nav {
     display: block;
     background-color: silver;
+    color:black;
     position: fixed;
     top: 0;
     left: 50%;
@@ -61,8 +62,12 @@ nav {
     display: block;
 }
 
-img {
-    width: 18%;
+.home img {
+    width: 10%;
     border-radius: 42%;
-    padding: 172px 19%;
+}
+
+.home {
+   padding: 196px 19%;
+   text-align: center;
 }

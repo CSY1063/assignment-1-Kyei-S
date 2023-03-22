@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: #4a4a4896;
+    background-color: #4a4a48d4;
 
 }
 
@@ -39,8 +39,12 @@ nav>ul>li:hover ul {
     display: block;
 }
 
-img {
+.home img {
     width: 10%;
     border-radius: 42%;
-    padding: 196px 19%;
+}
+
+.home {
+   padding: 196px 19%;
+   text-align: center;
 }
