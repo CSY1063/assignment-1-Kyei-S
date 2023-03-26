@@ -47,7 +47,7 @@ nav>ul>li:hover ul {
 .home img {
     width: 20%;
     border-radius: 42%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
@@ -69,4 +69,19 @@ aside {
 
 aside>a :hover ul {
     display: block;
+}
+
+.portfolio {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 52%;
+    justify-items: center;
+    align-items: center;
+    padding: 15px ;
+
+}
+
+.portfolio img {
+    width: 85%;
 }

@@ -11,6 +11,32 @@ body {
     ;
 }
 
+.home img {
+    width: 20%;
+    border-radius: 42%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.home {
+    padding: 185px 15%;
+    text-align: center;
+}
+
+.portfolio {
+
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 22% 31% 22% 31%;
+    justify-items: right;
+    align-items: center;
+    padding: 34px;
+
+}
+
+.portfolio img {
+    width: 85%;
+}
+
 .showNav {
     height: 0.8em;
     width: 1.25em;
@@ -31,7 +57,7 @@ body {
 nav {
     display: block;
     background-color: silver;
-    color:black;
+    color: black;
     position: fixed;
     top: 0;
     left: 50%;
@@ -62,16 +88,6 @@ nav {
     display: block;
 }
 
-.home img {
-    width: 20%;
-    border-radius: 42%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
-}
-
-.home {
-   padding: 185px 15%;
-   text-align: center;
-}
 aside {
     display: grid;
     grid-template-columns: auto auto auto auto;
