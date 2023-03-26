@@ -131,3 +131,12 @@ input[type="submit"] {
     background-color: #2E2E3A;
     color: white;
 }
+
+.workexperience {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto;
+    grid-gap: 2.5em;
+    padding: 100px;  
+
+}
