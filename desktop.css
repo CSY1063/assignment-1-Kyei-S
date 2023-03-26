@@ -78,7 +78,7 @@ aside>a :hover ul {
     grid-template-rows: 52%;
     justify-items: center;
     align-items: center;
-    padding: 15px ;
+    padding: 15px;
 
 }
 
@@ -88,8 +88,8 @@ aside>a :hover ul {
 
 .contact form {
     display: grid;
-    width: 400px;
-    grid-template-columns: 50% 65%;
+    width: auto;
+    grid-template-columns: auto auto;
     align-items: center;
     grid-gap: 2.5em;
     padding: 120px;
@@ -100,6 +100,10 @@ input[type="submit"] {
 }
 
 input {
+    width: auto;
+    height: 12px;
+    padding: 10px;
+    font-size: large;
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -108,7 +112,10 @@ input {
 }
 
 input[type="submit"] {
+    width: auto;
+    height: 32px;
+    padding: 3px;
     border: 2px solid#2E2E3A;
     background-color: #2E2E3A;
-    color:white;
+    color: white;
 }
