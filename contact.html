@@ -1,33 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact page</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="main.css" media="screen">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
+    <script src="https://kit.fontawesome.com/9451b36ffd.js" crossorigin="anonymous"></script>
 </head>
-<body>
+
+    <body id="clicked">
+        <header>
+            <a href="#clicked" class="showNav on"></a>
+            <a href="#" class="showNav off"></a>
+            <h1>Contact</h1>
+        </header>
     
-<header>
-    <h1>Contact</h1>
-</header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html">HomePage</a>
+                    <ul>
+                        <li>Submenu item 1.1</li>
+                        <li>Submenu item 1.2</li>
+                        
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a>
+                    <ul>
+                        <li>Submenu item 1.1</li>
+                        <li>Submenu item 1.2</li>
+                       
+                    </ul>
+                </li>
+                <li><a href="contact.html" class = "active">Contact</a>
+                    <ul>
+                        <li>Submenu item 1.1</li>
+                        <li>Submenu item 1.2</li>
+                       
+                    </ul>
+                </li>
+                <li><a href="workexperience.html">Work experience</a>
+                    <ul>
+                        <li>Submenu item 1.1</li>
+                        <li>Submenu item 1.2</li>
+                        
+                    </ul>
+                </li>
+                <li><a href="sitereport.html">Site report</a>
+                    <ul>
+                        <li>Submenu item 1.1</li>
+                        <li>Submenu item 1.2</li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    
+    
+        <main class = "contact">
+            <form action="mailto:stephen.kyei22@mynorthampton.ac.uk?subject=Contact Form" method="GET">
+                <label for="TextBox">Name</label>
+                <input type="text" name="Textbox" placeholder="Stephen Kyei" readonly>
+        
+                <label for="TextBox">Mobile</label>
+                <input type="text" name="TextBox" placeholder="07784390344" readonly>
+                
+                <label for="TextBox">Personal email</label>
+                <input type="text" name="TextBox" placeholder="stephenkyei465@gmail.com" readonly>
 
-<nav>
-    <ul>
-        <li><a href ="index.html">About Me</a></li>
-        <li><a href ="portfolio.html">Portfolio</a></li>
-        <li><a href ="contact.html">Contact</a></li>
-        <li><a href ="workexperience.html">Work experience</a></li>
-        <li><a href ="sitereport.html">Site report</a></li>
+                <label for="TextBox">Work email</label>
+                <input type="text" name="TextBox" placeholder="stephen.kyei22@mynorthampton.ac.uk" readonly>
+                
+                <label for="submit">Send email</label>
+                <input class="submit" type="submit" name="submit" value="Click here!"></form>
+    
+    
+        </main>
+    
+    
+        <aside>
+           
+            <a href = "https://www.facebook.com/stephen.kyei.1690/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href = "https://www.instagram.com/stevo_k1/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href = "https://www.linkedin.com/in/stephen-kyei-218ab01a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href = "https://github.com/Kyei-S" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+    
+    </aside>
 
-    </ul>
-</nav>
-<main></main>
-<aside></aside>
-<footer></footer>    
-
-</body>
-</html>
+        
+       
+    
+    
+    
+        <footer>
+            &copy; Stephen Kyei 2023
+        </footer>
+    
+    
+    
+    </body>
+    
+    </html>

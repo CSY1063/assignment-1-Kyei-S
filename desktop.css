@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 75% 5%;
     grid-template-rows: auto;
     grid-template-areas:
         "header header header"
@@ -10,8 +10,14 @@ body {
     ;
 }
 
+main {
+
+    font-size: large;
+}
+
 nav {
-    background-color: yellow;
+    background-color: #4a4a48d4;
+
 }
 
 nav ul {
@@ -28,7 +34,7 @@ nav>ul>li {
 nav ul ul {
     position: absolute;
     display: block;
-    background-color: green;
+    background-color: greencoolers;
     padding: 0;
     width: 100%;
     display: none;
@@ -38,3 +44,86 @@ nav>ul>li:hover ul {
     display: block;
 }
 
+.home img {
+    width: 20%;
+    border-radius: 42%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.home {
+    padding: 180px 17%;
+    text-align: center;
+}
+
+
+aside {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+aside>a :hover ul {
+    display: block;
+}
+
+.portfolio {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 52%;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.portfolio img {
+    width: 85%;
+}
+
+.contact form {
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 2.5em;
+    padding: 120px;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+input {
+    width: auto;
+    height: 12px;
+    padding: 10px;
+    font-size: large;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    width: auto;
+    height: 32px;
+    padding: 3px;
+    border: 2px solid#2E2E3A;
+    background-color: #2E2E3A;
+    color: white;
+}
+
+.workexperience{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 3.5em;
+    padding: 120px;
+}

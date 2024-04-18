@@ -1,28 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Neuton', serif;
+}
+
 header {
-    background-color: blue;
+    background-color: #2E2E3A;
     color: white;
-    padding: 20px;
+    padding: 15px;
     grid-area: header;
 }
 
 nav {
-    background-color: yellow;
+    background-color: #DBD3C9;
+    font-size: large;
     grid-area: nav;
 }
 
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.877);
+    color: black;
+}
+
 main {
-    background-color: darkblue;
-    color: white;
+    background-color: #B3B3B3;
+    color: black;
     grid-area: main;
+    font-size:large;
 }
 
 aside {
-    background-color: lightgreen;
+    background-color: #4a4a4896;
     grid-area: aside;
 }
 
 footer {
-    background-color: darkgreen;
-    color: white;
+    background-color: #4a4a48d4;
+    color: black;
+    padding: 5px;
     grid-area: footer;
+}
+
+aside a {
+    text-decoration: none;
+    color: #2E2E3A;
+}
+
+aside a :hover {
+    background-color:#4a4a4880;
+}
+
+
+.active {
+    background-color: #B3B3B3;
 }

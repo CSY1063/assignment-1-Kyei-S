@@ -11,6 +11,32 @@ body {
     ;
 }
 
+.home img {
+    width: 20%;
+    border-radius: 42%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.home {
+    padding: 185px 15%;
+    text-align: center;
+}
+
+.portfolio {
+
+    display: grid;
+    grid-template-columns: 85%;
+    grid-template-rows: 22% 31% 22% 31%;
+    justify-items: right;
+    align-items: center;
+    padding: 34px;
+
+}
+
+.portfolio img {
+    width: 85%;
+}
+
 .showNav {
     height: 0.8em;
     width: 1.25em;
@@ -30,14 +56,16 @@ body {
 
 nav {
     display: block;
-    background-color: yellow;
+    background-color: silver;
+    color: black;
     position: fixed;
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
     transform: translate(120%, 0);
-    transition: transform 0.5 ease-in;
+    transition: transform 0.5s ease-in;
+    list-style: none;
 }
 
 #clicked:target nav {
@@ -58,4 +86,57 @@ nav {
 
 #clicked:target .off {
     display: block;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    row-gap: 0.5em;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.contact form {
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 2.5em;
+    padding: 75px;
+}
+
+input[type="submit"] {
+    grid-column: 2;
+}
+
+input {
+    width: auto;
+    height: 12px;
+    padding: 10px;
+    font-size: large;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    width: auto;
+    height: 32px;
+    padding: 3px;
+    border: 2px solid#2E2E3A;
+    background-color: #2E2E3A;
+    color: white;
+}
+
+.workexperience {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: auto;
+    grid-gap: 2.5em;
+    padding: 100px;  
+
 }
